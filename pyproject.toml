@@ -1,6 +1,6 @@
 [project]
 name = "dinky-weather"
-version = "0.1"
+version = "0.1.1"
 description = "Weather widget for the dinky dashboard"
 readme = "README.md"
 requires-python = ">=3.8"
