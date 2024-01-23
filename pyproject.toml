@@ -1,0 +1,21 @@
+[project]
+name = "dinky-weather"
+version = "0.1"
+description = "Weather widget for the dinky dashboard"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{name = "Julian Prester"}]
+license = {text = "MIT"}
+dependencies = [
+    "dinky",
+    "pluggy",
+    "Pillow",
+    "requests"
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
