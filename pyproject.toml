@@ -10,7 +10,8 @@ dependencies = [
     "dinky",
     "pluggy",
     "Pillow",
-    "requests"
+    "requests",
+    "setuptools"
 ]
 
 [project.optional-dependencies]
